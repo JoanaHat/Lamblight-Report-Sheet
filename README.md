@@ -52,7 +52,7 @@ Click on the link and select open
 Register yourself ("As a nurse")
 Log in to your account:
 - Enter start of shift and end of shift (must be 8 hours shift)
-- Enter number of patients under you; min=1, max=6
+- Enter number of patients under you (between 2 and 6 included)
 - Enter username and password
 - Explore App
 
