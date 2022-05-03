@@ -33,11 +33,11 @@ The end of shift report on the app is almost completely prefilled to save time a
 2. Visit ide.cs50.io.
 3. Click Sign in with GitHub then login into your GitHub account and authorize the CS50 IDE GitHub app if prompted.
 4. Once you log in, you will automatically be forwarded to CS50 IDE! Hereafter, you may simply return to ide.cs50.io to log in and return to CS50 IDE, where all your files and settings are preserved.
-[For more information] (https://cs50.readthedocs.io/ide/online/)
+[For more information](https://cs50.readthedocs.io/ide/online/)
 5. Clone this repo
 
 ### Access local host link to application
-```python
+```
     ~/ $ cd project/
     ~/project/ $ flask run
     * Serving Flask app "application.py" (lazy loading)
@@ -51,10 +51,10 @@ Click on the link and select open
 ### Create an account and explore app
 Register yourself ("As a nurse")
 Log in to your account:
-    - Enter start of shift and end of shift (must be 8 hours shift)
-    - Enter number of patients under you; min=1, max=6
-    - Enter username and password
-    - Explore App
+- Enter start of shift and end of shift (must be 8 hours shift)
+- Enter number of patients under you; min=1, max=6
+- Enter username and password
+- Explore App
 
 ---
 
@@ -62,20 +62,20 @@ Log in to your account:
 
 To Display patient monitor form (if not actively dispalying)
 - In index.html
-- Inside script section
+- Inside script tag
 - Modify "hr" to your current hour (eg. if it is 4:30pm, hr will equal 16)
 
-```python
+```JavaScript
 // Selected hours for monitoring patients
 if (hr == 7 || hr == 12 || hr == 18) {
 ```
 
 To Display medication alert message (if not actively dispalying)
 - In index.html
-- Inside script section
+- Inside script tag
 - Modify "hour" to your current hour (eg. if it is 4:30pm, hr will equal 16)
 
-```python
+```JavaScript
 // If time is 12 AM getHours returs 0
 if (!g_hour) {
         g_hour = 24;
@@ -91,8 +91,8 @@ Joanita - criativajojo@gmail.com
 ---
 
 ## Acknowledgments
-Harvard cs50
-Bootstrap Forms
-w3school - SQL, CSS, HTML and JS
-Font Awesome
+Harvard cs50,
+Bootstrap Forms,
+w3school - (SQL, CSS, HTML and JS),
+Font Awesome,
 Favicons
