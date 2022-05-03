@@ -37,7 +37,7 @@ The end of shift report on the app is almost completely prefilled to save time a
 5. Clone this repo
 
 ### Access local host link to application
-'''python
+```python
     ~/ $ cd project/
     ~/project/ $ flask run
     * Serving Flask app "application.py" (lazy loading)
@@ -45,7 +45,7 @@ The end of shift report on the app is almost completely prefilled to save time a
     * Debug mode: off
     * Running on https://ide-76bfed53dbee4b1bb3806d24798f5801-8080.cs50.ws/ (Press CTRL+C to quit)
     * Restarting with stat
-'''
+```
 Click on the link and select open
 
 ### Create an account and explore app
@@ -64,22 +64,24 @@ To Display patient monitor form (if not actively dispalying)
 - In index.html
 - Inside script section
 - Modify "hr" to your current hour (eg. if it is 4:30pm, hr will equal 16)
-'''python
-    // Selected hours for monitoring patients
-    if (hr == 7 || hr == 12 || hr == 18) {
-'''
+
+```python
+// Selected hours for monitoring patients
+if (hr == 7 || hr == 12 || hr == 18) {
+```
 
 To Display medication alert message (if not actively dispalying)
 - In index.html
 - Inside script section
 - Modify "hour" to your current hour (eg. if it is 4:30pm, hr will equal 16)
-'''python
-    // If time is 12 AM getHours returs 0
-    if (!g_hour) {
-            g_hour = 24;
-    }
-    hour = g_hour;
-'''
+
+```python
+// If time is 12 AM getHours returs 0
+if (!g_hour) {
+        g_hour = 24;
+}
+hour = g_hour;
+```
 
 ---
 
